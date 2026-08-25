@@ -1,4 +1,4 @@
-name: Deploy XXFueL V4.3 Preview
+name: Deploy XXFueL V4.4 Preview
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
       - name: Extract preview site
         run: |
           mkdir _site
-          unzip -q MiniXX_Log_Analyzer_PWA_V4_3_Preview.zip -d _site
+          unzip -q MiniXX_Log_Analyzer_PWA_V4_4_Preview.zip -d _site
           touch _site/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@v5
